@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/core")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://banking-ui-l4rt.vercel.app/")
+@CrossOrigin(origins = "https://banking-ui-eight.vercel.app")
 public class ProcessingController {
 
     private final CoreBankService service;
